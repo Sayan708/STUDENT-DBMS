@@ -188,12 +188,12 @@ void deleterecord()
 }
 main()
 {
-	int value;
 	while(1)
 	{
-  cout<<"\n\n\t\t\t\t==================================================="<<endl;
-  cout<<"\t\t\t\t\tSTUDENT DATABASE MANAGEMENT SYSTEM\n";
-  cout<<"\t\t\t\t==================================================="<<endl;
+	int value;
+    cout<<"\n\n\t\t\t\t==================================================="<<endl;
+    cout<<"\t\t\t\t\tSTUDENT DATABASE MANAGEMENT SYSTEM\n";
+    cout<<"\t\t\t\t==================================================="<<endl;
   
   cout<<endl;
   cout<<"\t\t\t\t The Block of Code is Redesigned by SAYAN ACHARJEE";
@@ -205,6 +205,8 @@ main()
 	cout<<" \t\t\t4. update data"<<endl;
 	cout<<" \t\t\t5. delete data"<<endl;
 	cout<<" \t\t\t6. exit"<<endl;
+	cout<<"\n";
+    cout<<"\n\t\t\tEnter your choice (1-6):-> ";
 	cin>>value;
 	switch(value)
 	{
